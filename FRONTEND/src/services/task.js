@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const direccionUrl = "http://localhost:3000/api/tasks"
+const direccionUrl = "https://api-tasks-v8h0.onrender.com/api/tasks"
 
 export async function getTasks(state) {
     try {
